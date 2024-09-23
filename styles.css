@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #050505;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+nav .logo {
+    height: 35px; 
+    margin-left: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+.seccion-dark {
+    background: linear-gradient(to bottom, #050505, #ff0000); 
+    color: #fff; 
+    padding: 50px;
+}
+
+.seccion-dark h2 {
+    color: #ffffff; 
+}
+
+.seccion-dark p {
+    color: #fff; 
+}
+
+.seccion-dark img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #ff0000;
+    color: white;
+   
+}
+
+#about h2{
+    color: white;
+}
+#about p{
+    color: white;
+}
+#mifoto{
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 33px;
+    border: 1px solid #fff; 
+}
+
+.container img {
+    max-width: 500px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container .text {
+    max-width: 600px;
+    text-align: left;
+  
+}
+
+h2 {
+    font-size: 2rem;
+    color: #1f1e1e;
+}
+
+p {
+    font-size: 1rem;
+    color: #1f1e1e;
+}
+
+
+.icons img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+#Proyectos {
+    background-color: #050505; 
+    padding: 50px 20px;
+    color: #fff; 
+}
+#Proyectos h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.proyectoss {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.project {
+    background-color: #8d0505; 
+    border: 1px solid #fff; 
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    color: #fff; 
+    border-radius: 10px;
+}
+
+
+.proyectoss img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#contact h2{
+ text-align: center;
+    color: #000000;
+   
+}
+#contact {
+    background: linear-gradient(to bottom, #ffffff, #ff0000);
+}
+
+form input, form textarea {
+    width: 50%;
+    margin: 10px 0;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+form button {
+    padding: 10px 20px ;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+
+footer {
+    background-color:#050505;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="codigo.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+  
+    
+    <nav>
+        <img src="images/3@300x.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#contact">Contactos</a></li>
+        </ul>
+    </nav>
+    
+    <section class="container seccion-dark">
+        <div class="text">
+            <h2>Diseño y Desarrollo Web</h2>
+            <p>Soluciones innovadoras y creativas para el diseño y desarrollo web.</p>
+        </div>
+        <img src="images/LOGO_METALTRA.png" alt="Imagen de diseño web">
+    </section>
+    
+    <section id="about" class="container">
+        <img id= "mifoto"src="images/1677194504093.jpeg" alt="Mi foto">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>Hola, soy Estefania (tefani) un diseñadora grafica e ilustradora con conocimientos de desarollo web. Aquí algunas de las tecnologias que manejo:</p>
+            <div class="icons">
+                <img src="images/html_1.png" alt="Icono HTML">
+                <img src="images/css.png" alt="Icono CSS">
+                <img src="images/js.png" alt="Icono JavaScript">
+                <img src="images/csharp.png" alt="Icono c#">
+                <img src="images/sass.png" alt="Icono sass">
+            </div>
+        </div>
+    </section>
+    
+    <section id="Proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectoss">
+            <div class="project">
+                <img src="images/captura (2).png" alt="Proyecto 1">
+                <h3>Sistema de gestion - Casa de tecnología</h3>
+                <a href="https://github.com/canduupe/tp-winform-equipo-17B">Ver proyecto</a>
+            </div>
+            <div class="project">
+                <img src="images/captura (3).png" alt="Proyecto 2">
+                <h3>Brandboards- Identidades diseñadas</h3>
+                <a href="https://drive.google.com/file/d/1Qs-mxOc8GDzlPUPIT5FzKTAKwLbNV70o/view?usp=sharing">Ver proyecto</a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form  method="post" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required id="nombre">
+            <input type="email" name="email" placeholder="Tu Email" required id="email">
+            <textarea name="mensaje" rows="5" placeholder="Tu Mensaje" required id="msj"></textarea>
+            <button onclick="saludar()">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>MADE BY TEFANI© 2024 </p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/tefani____"><img src="images/IG.png" alt="Icono INSTAGRAM"></a>
+            <a href="https://www.linkedin.com/in/estefan%C3%ADa-aroza-30b2841a9/"><img src="images/LNK.png" alt="Icono LINKEDIN"></a>
+            <a href="https://github.com/arozatefani"><img src="images/GITHUB.png" alt="Icono GITHUB"></a>
+        </div>
+    </footer>
+    
+    </body>
+</html>
